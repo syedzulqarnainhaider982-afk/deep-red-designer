@@ -57,8 +57,92 @@ html {
   scroll-behavior: smooth;
 }
 
-@keyframes shimmer {
-  100% {
-    transform: translateX(100%);
+@theme {
+  --animate-shimmer: shimmer 1.5s infinite;
+  
+  @keyframes shimmer {
+    100% { transform: translateX(100%); }
   }
 }
+/* Global Luxury Animation System */
+
+/* Glass Reflection */
+.glass-reflection {
+  position: relative;
+  overflow: hidden;
+}
+.glass-reflection::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(255, 255, 255, 0.05) 50%,
+    rgba(212, 175, 55, 0.1) 80%,
+    transparent 100%
+  );
+  transform: skewX(-20deg);
+  animation: shine 10s infinite cubic-bezier(0.25, 0.1, 0.25, 1);
+  pointer-events: none;
+}
+@keyframes shine {
+  0% { left: -100%; }
+  20% { left: 200%; }
+  100% { left: 200%; }
+}
+
+/* Image Micro Animations */
+.premium-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: inherit;
+}
+.premium-image-wrapper img {
+  transition: transform 0.6s cubic-bezier(0.25, 0.1, 0.25, 1), filter 0.6s ease;
+  will-change: transform, filter;
+}
+.premium-image-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.4), transparent);
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  z-index: 1;
+  pointer-events: none;
+}
+.premium-image-wrapper:hover img {
+  transform: scale(1.04);
+  filter: brightness(1.1);
+}
+.premium-image-wrapper:hover::before {
+  opacity: 1;
+}
+
+/* Button Micro Interactions (Ripple handled mostly by framer motion, CSS glow here) */
+.premium-btn {
+  transition: transform 0.2s ease-out, box-shadow 0.3s ease;
+}
+.premium-btn:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+}
+.premium-btn:active {
+  transform: scale(0.98);
+}
+
+/* Reduces motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .glass-reflection::after {
+    animation: none;
+  }
+  .premium-image-wrapper img, .premium-btn {
+    transition: none;
+    transform: none !important;
+  }
+}
+
