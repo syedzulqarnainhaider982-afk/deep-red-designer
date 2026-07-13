@@ -99,13 +99,10 @@ export default function Hero() {
         transition={{ delay: 1.2, duration: 0.8 }}
         className="absolute left-6 lg:left-12 top-1/2 -translate-y-1/2 hidden lg:flex flex-col gap-6 z-20"
       >
-        <a href="https://instagram.com/studiobyiram" aria-label="Instagram" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-[var(--color-text-muted)] hover:text-[var(--color-accent)] hover:border-[var(--color-accent)] transition-colors active:scale-95">
+        <a href="https://instagram.com/" aria-label="Instagram" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-[var(--color-text-muted)] hover:text-[var(--color-accent)] hover:border-[var(--color-accent)] transition-colors active:scale-95">
           <MapPin size={16} />
         </a>
-        <a href="mailto:info@pbcollection.com" aria-label="Email" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-[var(--color-text-muted)] hover:text-[var(--color-accent)] hover:border-[var(--color-accent)] transition-colors active:scale-95">
-          <Mail size={16} />
-        </a>
-        <a href="https://wa.me/923319233258" aria-label="Phone" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-[var(--color-text-muted)] hover:text-[var(--color-accent)] hover:border-[var(--color-accent)] transition-colors active:scale-95">
+        <a href="https://wa.me/923005370785" aria-label="Phone" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-[var(--color-text-muted)] hover:text-[var(--color-accent)] hover:border-[var(--color-accent)] transition-colors active:scale-95">
           <Phone size={16} />
         </a>
       </motion.div>
