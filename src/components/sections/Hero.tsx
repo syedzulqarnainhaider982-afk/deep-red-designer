@@ -4,7 +4,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import Container from "@/components/layout/Container";
-import { ChevronDown, MapPin, Mail, Phone, Instagram } from "lucide-react";
+import { ChevronDown, MapPin, Phone } from "lucide-react";
+import { FaInstagram } from "react-icons/fa";
 
 export default function Hero() {
   const scrollToCollections = () => {
@@ -100,7 +101,7 @@ export default function Hero() {
         className="absolute left-6 lg:left-12 top-1/2 -translate-y-1/2 hidden lg:flex flex-col gap-6 z-20"
       >
         <a href="https://instagram.com/tabassumharoon.official" aria-label="Instagram" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-[var(--color-text-muted)] hover:text-[var(--color-accent)] hover:border-[var(--color-accent)] transition-colors active:scale-95">
-          <Instagram size={16} />
+          <FaInstagram size={16} />
         </a>
         <a href="https://www.google.com/maps/search/?api=1&query=Deep+Red+Designer+Rabi+Center+Rawalpindi" aria-label="Location" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-[var(--color-text-muted)] hover:text-[var(--color-accent)] hover:border-[var(--color-accent)] transition-colors active:scale-95">
           <MapPin size={16} />
