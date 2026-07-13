@@ -48,7 +48,7 @@ export default function Navbar() {
       <Container className="flex items-center justify-between">
         {/* Logo */}
         <Link href="#home" onClick={(e) => scrollTo(e, "#home")} className="text-xl md:text-2xl font-serif text-[var(--color-accent)] tracking-widest font-bold">
-          PB <span className="text-[var(--color-text-main)] font-light">COLLECTION</span>
+            <span className="font-serif text-xl tracking-widest text-[var(--color-accent)] font-semibold">DEEP RED DESIGNER</span>
         </Link>
 
         {/* Desktop Nav */}

@@ -15,15 +15,15 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "PB Collection's Boutique and Stitching Studio | Luxury Fashion",
+  title: "Deep Red Designer | Luxury Fashion",
   description: "Crafting timeless elegance and uncompromising luxury. Discover our exquisite bridal couture and bespoke fashion at Phase 4 Bahria Town, Rawalpindi.",
   keywords: ["luxury boutique", "stitching studio", "bridal couture", "bespoke fashion", "Rawalpindi boutique", "Bahria Town boutique", "Pakistani fashion"],
-  authors: [{ name: "PB Collection" }],
+  authors: [{ name: "Deep Red Designer" }],
   openGraph: {
-    title: "PB Collection's Boutique | Luxury Fashion",
+    title: "Deep Red Designer | Luxury Fashion",
     description: "Begin your luxury journey. Dream bridal couture and bespoke masterpieces in Rawalpindi, Pakistan.",
     url: "https://pbcollection.com",
-    siteName: "PB Collection",
+    siteName: "Deep Red Designer",
     images: [
       {
         url: "/og-image.jpg", // Placeholder for actual OG image
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "PB Collection's Boutique | Luxury Fashion",
+    title: "PB Collection | Luxury Fashion",
     description: "Begin your luxury journey. Dream bridal couture and bespoke masterpieces in Rawalpindi, Pakistan.",
     images: ["/og-image.jpg"],
   },
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "PB Collection's Boutique and stitching studio",
+  "name": "Deep Red Designer",
   "image": "https://pbcollection.com/og-image.jpg",
   "url": "https://pbcollection.com",
   "telephone": "+923319233258",

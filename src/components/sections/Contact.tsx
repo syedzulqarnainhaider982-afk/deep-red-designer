@@ -27,9 +27,9 @@ export default function Contact() {
                 <div>
                   <h3 className="text-xl font-serif text-[var(--color-text-main)] mb-2">Boutique Location</h3>
                   <p className="text-[var(--color-text-muted)] font-light leading-relaxed">
-                    Corniche Road, beside Anaajpur,<br />
-                    Phase 4 Bahria Town, Rawalpindi,<br />
-                    Pakistan
+                    Shop #. 4-5, 2nd Floor, Rabi Center,<br />
+                    Murree Rd, D Block Block D Satellite Town,<br />
+                    Rawalpindi, 44000, Pakistan
                   </p>
                 </div>
               </div>
@@ -43,7 +43,7 @@ export default function Contact() {
                 <div>
                   <h3 className="text-xl font-serif text-[var(--color-text-main)] mb-2">Phone</h3>
                   <p className="text-[var(--color-text-muted)] font-light tracking-wide">
-                    +92 331 9233258
+                    +92 300 5370785
                   </p>
                 </div>
               </div>
@@ -57,7 +57,8 @@ export default function Contact() {
                 <div>
                   <h3 className="text-xl font-serif text-[var(--color-text-main)] mb-2">Opening Hours</h3>
                   <p className="text-[var(--color-text-muted)] font-light">
-                    Monday - Sunday: 10:00 AM – 11:00 PM
+                    Sat - Thu: Open 24 hours<br />
+                    Friday: Closed
                   </p>
                 </div>
               </div>
@@ -66,7 +67,7 @@ export default function Contact() {
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a 
-                href="https://wa.me/923319233258?text=Hello,%20I%20would%20like%20to%20book%20a%20private%20consultation." 
+                href="https://wa.me/923005370785?text=Hello,%20I%20would%20like%20to%20book%20a%20private%20consultation." 
                 target="_blank" 
                 rel="noreferrer"
                 className="premium-btn flex items-center justify-center gap-3 px-8 py-4 bg-[var(--color-accent)] text-black font-medium tracking-wide rounded-sm active:scale-95 transition-all"
@@ -75,7 +76,7 @@ export default function Contact() {
                 Book Private Consultation
               </a>
               <a 
-                href="https://wa.me/923319233258" 
+                href="https://wa.me/923005370785" 
                 target="_blank" 
                 rel="noreferrer"
                 className="premium-btn flex items-center justify-center gap-3 px-8 py-4 bg-transparent border border-[var(--color-accent)] text-[var(--color-accent)] font-medium tracking-wide rounded-sm hover:bg-[var(--color-accent)]/10 active:scale-95 transition-all"
@@ -101,7 +102,7 @@ export default function Contact() {
             {/* Map Overlay Button */}
             <div className="absolute inset-0 bg-black/20 pointer-events-none transition-colors duration-500 group-hover:bg-transparent" />
             <a 
-              href="https://www.google.com/maps/search/?api=1&query=33.5467282,73.1213359" // Actual coordinates from the map iframe
+              href="https://www.google.com/maps/search/?api=1&query=Deep+Red+Designer+Rabi+Center+Rawalpindi" // Actual search query
               target="_blank"
               rel="noreferrer"
               className="absolute bottom-6 left-1/2 -translate-x-1/2 premium-btn px-6 py-3 bg-black/80 backdrop-blur-md border border-[var(--color-accent)]/50 text-[var(--color-accent)] rounded-full text-sm font-medium tracking-wider flex items-center gap-2 hover:bg-black active:scale-95 transition-all"

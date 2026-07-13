@@ -18,7 +18,7 @@ export default function Footer() {
           {/* Brand Info */}
           <div className="lg:col-span-1 flex flex-col items-center lg:items-start text-center lg:text-left">
             <h2 className="text-2xl font-serif text-[var(--color-text-main)] mb-4 tracking-widest">
-              PB COLLECTION
+            <span className="font-serif text-xl tracking-widest text-[var(--color-accent)] font-semibold">DEEP RED DESIGNER</span>
             </h2>
             <p className="text-[var(--color-text-muted)] text-sm leading-relaxed mb-6 font-light">
               Crafting timeless elegance and uncompromising luxury. Where centuries-old tradition meets modern haute couture.
@@ -28,7 +28,7 @@ export default function Footer() {
               <a href="https://instagram.com/studiobyiram" aria-label="Visit our Instagram" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-[var(--color-text-muted)] hover:text-black hover:bg-[var(--color-accent)] hover:border-[var(--color-accent)] hover:shadow-[0_0_15px_rgba(212,175,55,0.4)] hover:-translate-y-1 active:scale-95 transition-all duration-300">
                 <FaInstagram size={18} />
               </a>
-              <a href="https://wa.me/923319233258" aria-label="Chat with us on WhatsApp" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-[var(--color-text-muted)] hover:text-black hover:bg-[var(--color-accent)] hover:border-[var(--color-accent)] hover:shadow-[0_0_15px_rgba(212,175,55,0.4)] hover:-translate-y-1 active:scale-95 transition-all duration-300">
+              <a href="https://wa.me/923005370785" aria-label="Chat with us on WhatsApp" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-[var(--color-text-muted)] hover:text-black hover:bg-[var(--color-accent)] hover:border-[var(--color-accent)] hover:shadow-[0_0_15px_rgba(212,175,55,0.4)] hover:-translate-y-1 active:scale-95 transition-all duration-300">
                 <FaWhatsapp size={18} />
               </a>
               <a href="https://facebook.com/puresilkpr" aria-label="Visit our Facebook page" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-[var(--color-text-muted)] hover:text-black hover:bg-[var(--color-accent)] hover:border-[var(--color-accent)] hover:shadow-[0_0_15px_rgba(212,175,55,0.4)] hover:-translate-y-1 active:scale-95 transition-all duration-300">
@@ -61,7 +61,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center justify-center lg:justify-start gap-3 text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors text-sm font-light group cursor-pointer">
                 <FaWhatsapp className="shrink-0" />
-                <a href="https://wa.me/923319233258">+92 331 9233258</a>
+                <a href="https://wa.me/923005370785">+92 300 5370785</a>
               </li>
             </ul>
           </div>
@@ -92,7 +92,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/10 gap-4 text-xs text-white/40 font-light tracking-wide">
-          <p>&copy; {currentYear} PB Collection&apos;s Boutique &amp; Stitching Studio. All rights reserved.</p>
+          <p>&copy; {currentYear} Deep Red Designer. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="#" className="hover:text-[var(--color-accent)] transition-colors">Privacy Policy</Link>
             <Link href="#" className="hover:text-[var(--color-accent)] transition-colors">Terms of Service</Link>
