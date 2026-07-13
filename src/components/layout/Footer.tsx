@@ -25,7 +25,7 @@ export default function Footer() {
             </p>
             {/* Social Icons */}
             <div className="flex gap-4">
-              <a href="https://instagram.com/" aria-label="Visit our Instagram" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-[var(--color-text-muted)] hover:text-black hover:bg-[var(--color-accent)] hover:border-[var(--color-accent)] hover:shadow-[0_0_15px_rgba(212,175,55,0.4)] hover:-translate-y-1 active:scale-95 transition-all duration-300">
+              <a href="https://instagram.com/tabassumharoon.official" aria-label="Visit our Instagram" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-[var(--color-text-muted)] hover:text-black hover:bg-[var(--color-accent)] hover:border-[var(--color-accent)] hover:shadow-[0_0_15px_rgba(212,175,55,0.4)] hover:-translate-y-1 active:scale-95 transition-all duration-300">
                 <FaInstagram size={18} />
               </a>
               <a href="https://wa.me/923005370785" aria-label="Chat with us on WhatsApp" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-[var(--color-text-muted)] hover:text-black hover:bg-[var(--color-accent)] hover:border-[var(--color-accent)] hover:shadow-[0_0_15px_rgba(212,175,55,0.4)] hover:-translate-y-1 active:scale-95 transition-all duration-300">
